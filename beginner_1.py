@@ -123,3 +123,5 @@ copied_list = numbers[:] # copies the values in numbers list into copied_list
 print(copied_list)
 copied_list_2 = numbers.copy() # copying by using the copy method
 print(copied_list_2)
+
+# Thank you
