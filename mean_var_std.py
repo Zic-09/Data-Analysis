@@ -32,6 +32,7 @@ def calculate(input_list):
             new_array.sum(axis=1).tolist(), 
             new_array.sum().tolist()]
     }
-    print(calculations)
+    return calculations
 
-calculate([1,2,3,4,5,6,7,8,9])
+result = calculate([1,2,3,4,5,6,7,8,9])
+print(result)
